@@ -34,16 +34,11 @@
 	</dependencies>
 	<build>
 		<plugins>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 			</plugin>
-			
-			<!-- Maven Assembly Plugin -->
-			<build>
-		<plugins>
-
 			<!-- Maven Assembly Plugin -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -58,10 +53,6 @@
 				</executions>
 			</plugin>
 
-		</plugins>
-	</build>
-
-			
 		</plugins>
 	</build>
 
